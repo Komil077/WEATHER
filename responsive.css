@@ -5,11 +5,15 @@
         padding: 0;
         box-sizing: border-box;
     }
-    
+
     body {
-        background-color: #222;
+        /* background-color: #222; */
+        background-image: url(./img/4969935.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
     }
-    
+
     .card {
         width: 80%;
         max-width: 350px;
@@ -20,17 +24,18 @@
         border-radius: 20px;
         text-align: center;
     }
+
     /* .card:hover {
         max-width: 0px;
     } */
-    
+
     .search {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    
+
     .search input {
         width: 75%;
         border: 0;
@@ -44,7 +49,7 @@
         margin-right: 16px;
         font-size: 18px;
     }
-    
+
     .search button {
         border: 0;
         outline: 0;
@@ -54,28 +59,28 @@
         height: 60px;
         cursor: pointer;
     }
-    
+
     .search button img {
         width: 16px;
     }
-    
-    
+
+
     .weather-icon {
         width: 170px;
         margin-top: 30px;
     }
-    
+
     .weather h1 {
         font-size: 80px;
         font-weight: 500;
     }
-    
+
     .weather h2 {
         font-size: 45px;
         font-weight: 400;
         margin-top: -10px;
     }
-    
+
     .details {
         display: flex;
         align-items: center;
@@ -83,27 +88,28 @@
         padding: 0 20px;
         margin-top: 50px;
     }
-    
+
     .col {
         display: flex;
         align-items: center;
         text-align: left;
     }
-    
+
     .col img {
         width: 40px;
         margin-right: 10px;
     }
-    
-    .humidity, .wind {
+
+    .humidity,
+    .wind {
         font-size: 28px;
         margin-top: -6px;
     }
-    
+
     .weather {
         display: none;
     }
-    
+
     .error {
         text-align: left;
         margin-left: 10px;
@@ -111,12 +117,12 @@
         margin-top: 10px;
         display: none;
     }
-    
+
     .komil {
         text-align: right;
         margin-right: 3%;
     }
-    
+
     .komil a {
         display: flex;
         align-items: center;
@@ -126,9 +132,10 @@
         font-size: 14px;
         transition: 1s;
     }
+
     .komil a:hover {
         font-size: 17px;
         transition: 1s;
-    } 
-    
+    }
+
 }

@@ -5,7 +5,13 @@
 }
 
 body {
-    background-color: #222;
+    height: 100vh;
+    /* background-color: #222; */
+    background-image: url(./img/panda-boy-with-cars-5k-q3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
 }
 
 .card {

@@ -117,8 +117,8 @@ body {
 }
 
 .error {
-    text-align: left;
-    margin-left: 10px;
+    /* text-align: left; */
+    /* margin-left: 10px; */
     font-size: 30px;
     margin-top: 10px;
     display: none;

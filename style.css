@@ -6,12 +6,12 @@
 
 body {
     height: 100vh;
-    /* background-color: #222; */
-    background-image: url(./img/panda-boy-with-cars-5k-q3.jpg);
+    background-color: #222;
+    /* background-image: url(./img/panda-boy-with-cars-5k-q3.jpg); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-
+    overflow-y: hidden;
 }
 
 .card {
@@ -21,7 +21,7 @@ body {
     /* background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(21, 81, 152, 1) 100%); */
     background-color: #0093E9;
-background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 
     color: #fff;
     margin: 100px auto 0;
